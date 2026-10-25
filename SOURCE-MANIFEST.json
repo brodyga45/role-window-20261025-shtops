@@ -1,0 +1,109 @@
+{
+  "at_utc": "2026-10-23T19:29:06.639240+00:00",
+  "packet": "Role Window v4 source; contact path and narrow layout",
+  "baseline_sha256": "98d55afd1cf7b99ef23b503d05a16dde2e5446d787aad96334b3c93aa2d3207b",
+  "change": "Existing discuss link in demo/guide and table stays within own scroll region at390px; no automatic send, backend or moderation change",
+  "changed_files": [
+    "demo/app.mjs",
+    "demo/guide.html",
+    "demo/styles.css"
+  ],
+  "engine_bot_tests_identical_to_v2": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "fd4169014b856d514552be2a1070f9c6388d13ed255090e983d61dd84e73d6ec"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "bc6f8a4df3220f45300e0f0dfc4252974afdc38b9dca09549cbe453030e9637c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "56aeb7e6eb183e067981ff39b26236cfa7908737979778bd50641390810e8cf4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "71e05da9d0a6d1556f4c23165d6868214729e602336f0ff53a22ecbdbeed77a1"
+    },
+    {
+      "path": "bot/discord.mjs",
+      "sha256": "000aa86f1d5ab3f298e6f47a47b1190a6942543f1dca995044fd95c4ff4d62ae"
+    },
+    {
+      "path": "bot/reconcile.mjs",
+      "sha256": "e847ca4182291eb197a54c087429d4bfc4d56f79aad658218de1b3a6073a7f59"
+    },
+    {
+      "path": "bot/review.mjs",
+      "sha256": "2dbd560cb050c094cee1b72f4bef7a9796ef4b2b44238a1bf2d1cd5cb34aac39"
+    },
+    {
+      "path": "config.example.json",
+      "sha256": "886dcfcc41125aebb6af4bd629c3fdd27c39aaa1ab5242661630862f06b11a87"
+    },
+    {
+      "path": "core/engine.mjs",
+      "sha256": "60c46709babdbf974712771857c00dcb2c89a9ed07cc38b5a38971fa42d7db54"
+    },
+    {
+      "path": "core/sqlite-store.mjs",
+      "sha256": "d52632403410149b2fe8aff198f1868db7393d7f15bc6bbc94b0427040653445"
+    },
+    {
+      "path": "demo/app.mjs",
+      "sha256": "2baeb57a17393f29a5c17c00c3f22e8525cb254cf8fc9e07e1246c46c3c3e343"
+    },
+    {
+      "path": "demo/guide.html",
+      "sha256": "e37eee2962c9a977f4f9a94f2140540d6371ce35552ca83a56c45be7004eb0e7"
+    },
+    {
+      "path": "demo/index.html",
+      "sha256": "a0a339c1baae8438714c07aa06923d624b98565fd322e99d3d14a01e7180611b"
+    },
+    {
+      "path": "demo/server.mjs",
+      "sha256": "07d0899ecec5ab2e9d23c40fafc458dad485ac7875e08112234440ab8ed4f443"
+    },
+    {
+      "path": "demo/styles.css",
+      "sha256": "071bb40d9ed176834d40eb5a1541bee4a940d3ab522056d7e3da81c8311fc60f"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "ea768285a9f4e446c74f9a1d0ce43bd2198bdb5a973b9d9e315e0eb8a7519f59"
+    },
+    {
+      "path": "package.json",
+      "sha256": "679b17c73092aa8a7b88ef2c9a730804514302196d77c3304799985e5dd333a5"
+    },
+    {
+      "path": "tests/engine.test.mjs",
+      "sha256": "64b50c1853216f4a21c05fa8c0ff0fda5bce178328bd663eb1a9b51fd4d13ffe"
+    },
+    {
+      "path": "tests/reconcile.test.mjs",
+      "sha256": "b81864659f4701553c0e6e7de9c482a116b522694bbc5fbbf79809e2c488da11"
+    },
+    {
+      "path": "tests/sdk-write.test.mjs",
+      "sha256": "21051cd0697f1904c51a4ce0c1def5b3250f14c6647813e3e2e6eb34a574efba"
+    },
+    {
+      "path": "demo/role-window-source.zip",
+      "sha256": "cf84a7b9bb44b2d562bb6e44c09066e503a78c4ac54f44d5746ce98914b7a03c"
+    }
+  ],
+  "github_distribution": {
+    "published_on": "2026-10-25",
+    "repository": "https://github.com/brodyga45/role-window-20261025-shtops",
+    "original_archive_sha256": "cf84a7b9bb44b2d562bb6e44c09066e503a78c4ac54f44d5746ce98914b7a03c",
+    "runtime_and_tests_unchanged": true,
+    "changes": [
+      "README hosted demo/operator links and source provenance",
+      ".gitignore excludes local config.json",
+      "original v4 ZIP included as demo/role-window-source.zip"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "role-window",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "demo": "node demo/server.mjs",
+    "bot": "node bot/discord.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {"discord.js": "14.27.0"}
+}

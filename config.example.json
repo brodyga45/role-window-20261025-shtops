@@ -1,0 +1,9 @@
+{
+  "guildId": "REPLACE_WITH_ONE_SERVER_ID",
+  "roleId": "REPLACE_WITH_UNVERIFIED_ROLE_ID",
+  "graceMinutes": 15,
+  "dryRun": true,
+  "reconnectPolicy": "fresh_grace",
+  "exemptRoleIds": [],
+  "database": "runtime/role-window.sqlite"
+}
